@@ -1,5 +1,7 @@
 # NVIDIA Nemotron Reasoning Challenge — LoRA SFT Silver Medal Solution
 
+English | [中文](README.md)
+
 > Kaggle **NVIDIA Nemotron Model Reasoning Challenge** Silver Medal Solution
 >
 > Enhancing reasoning capabilities of Nemotron-3-Nano-30B-A3B through deterministic CoT generation and class-balanced LoRA fine-tuning

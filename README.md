@@ -1,5 +1,7 @@
 # NVIDIA Nemotron 推理挑战赛 — LoRA SFT 银牌方案
 
+[English](README_EN.md) | 中文
+
 > Kaggle **NVIDIA Nemotron Model Reasoning Challenge** 银牌解决方案
 >
 > 通过确定性 CoT 生成 + 类别均衡 LoRA 微调，在 Nemotron-3-Nano-30B-A3B 模型上显著提升推理能力
