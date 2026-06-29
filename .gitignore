@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs
+output/
+logs/
+*.log
+wandb/
+checkpoints/
+*.ckpt
+*.safetensors
+
+# Model files (too large for git)
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Data files (samples provided, full data too large)
+data/v2/train_corpus_aug_sampled_train_v2.csv
+data/v2/val_1000_learned.csv
+data/v2/val_1000_unseen.csv
+
+# Environment
+.env
+.env.local
+*.secret
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Proxy
+# Do not commit any files containing credentials
+credentials.json
+kaggle.json

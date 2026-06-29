@@ -1,0 +1,40 @@
+# Nemotron LoRA SFT Training Dependencies
+# Tested with Python 3.12 + CUDA 12.4
+
+# Deep Learning Framework
+torch>=2.6.0
+triton>=3.2.0
+
+# HuggingFace Ecosystem
+transformers>=5.8.0
+accelerate>=1.13.0
+peft>=0.19.1
+datasets>=4.0.0
+huggingface_hub>=1.14.0
+tokenizers>=0.22.2
+safetensors>=0.7.0
+
+# Quantization Support
+bitsandbytes>=0.42.0
+
+# Data Processing
+pandas>=2.3.0
+numpy>=2.2.0
+scipy>=1.16.0
+pyarrow>=20.0.0
+tqdm>=4.67.0
+
+# Distributed Training
+deepspeed
+
+# vLLM for Inference
+vllm>=0.8.0
+
+# Nemotron/Mamba Architecture Dependencies
+# Pre-built wheels required for CUDA + Torch compatibility
+# Install from: https://github.com/state-spaces/mamba
+causal_conv1d>=1.6.0
+mamba_ssm>=2.3.0
+
+# Flash Attention (optional, for training acceleration)
+flash_attn>=2.8.0
